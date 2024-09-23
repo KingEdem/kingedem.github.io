@@ -49,10 +49,10 @@ index_htm_files/208.png
 index_htm_files/208@2x.png
 index_htm_files/209.png
 index_htm_files/209@2x.png
-index_htm_files/210.png
-index_htm_files/210@2x.png
 index_htm_files/211.png
 index_htm_files/211@2x.png
+index_htm_files/217.png
+index_htm_files/217@2x.png
 index_htm_files/XaraWDGeneratedHTMLfont1.woff
 index_htm_files/XaraWDEmbeddedHTMLfont1.eot
 index_htm_files/XaraWDGeneratedHTMLfont2.woff
