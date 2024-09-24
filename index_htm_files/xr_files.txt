@@ -9,10 +9,12 @@ philosophy.htm
 bonus.htm
 hyperman and the seer.htm
 hyperman and the seer-a.htm
+hyperman and the seer-b.htm
+hyperman and the seer-c.htm
+hyperman and the seer-d.htm
 index_htm_files/1.png
 index_htm_files/1@2x.png
 index_htm_files/158.png
-index_htm_files/158@2x.png
 index_htm_files/112.png
 index_htm_files/73@2x.png
 index_htm_files/113.png
@@ -43,16 +45,18 @@ index_htm_files/99.png
 index_htm_files/99@2x.png
 index_htm_files/206.png
 index_htm_files/206@2x.png
-index_htm_files/207.png
-index_htm_files/207@2x.png
 index_htm_files/208.png
 index_htm_files/208@2x.png
 index_htm_files/209.png
 index_htm_files/209@2x.png
 index_htm_files/211.png
 index_htm_files/211@2x.png
-index_htm_files/217.png
-index_htm_files/217@2x.png
+index_htm_files/237.png
+index_htm_files/237@2x.png
+index_htm_files/158@2x.png
+index_htm_files/234.png
+index_htm_files/234@2x.png
+index_htm_files/239.jpg
 index_htm_files/XaraWDGeneratedHTMLfont1.woff
 index_htm_files/XaraWDEmbeddedHTMLfont1.eot
 index_htm_files/XaraWDGeneratedHTMLfont2.woff
