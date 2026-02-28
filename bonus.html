@@ -15,33 +15,9 @@
   <link rel="icon" type="image/png" href="2.png?v=2">
   <link rel="apple-touch-icon" href="2.png?v=2">
 
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./css/style.css">
 
   <script src="https://unpkg.com/lucide@latest"></script>
-
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Geist', 'sans-serif'],
-            mono: ['Geist Mono', 'monospace'],
-            serif: ['Georgia', 'serif'],
-          },
-          colors: {
-            border: 'var(--border)',
-            background: 'var(--background)',
-            foreground: 'var(--foreground)',
-            primary: { DEFAULT: 'var(--primary)', foreground: 'var(--primary-foreground)' },
-            secondary: { DEFAULT: 'var(--secondary)', foreground: 'var(--secondary-foreground)' },
-            muted: { DEFAULT: 'var(--muted)', foreground: 'var(--muted-foreground)' },
-            card: { DEFAULT: 'var(--card)', foreground: 'var(--card-foreground)' },
-          }
-        }
-      }
-    }
-  </script>
 
   <style>
     /* CSS Variables */
@@ -147,12 +123,10 @@
 
   <!-- Background images (same as index.html) -->
   <div class="fixed inset-0 z-0 hidden dark:block pointer-events-none">
-    <img src="images/hero-bg.jpg" alt="" class="h-full w-full object-cover opacity-20" />
     <div class="absolute inset-0 bg-background/85"></div>
   </div>
 
   <div class="fixed inset-0 z-0 dark:hidden pointer-events-none">
-    <img src="images/hero-bg-light.jpg" alt="" class="h-full w-full object-cover opacity-10" />
     <div class="absolute inset-0 bg-background/[0.93]"></div>
   </div>
 

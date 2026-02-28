@@ -15,32 +15,8 @@
   <link rel="icon" type="image/png" href="2.png?v=2">
   <link rel="apple-touch-icon" href="2.png?v=2">
 
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./css/style.css">
   <script src="https://unpkg.com/lucide@latest"></script>
-
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Geist', 'sans-serif'],
-            mono: ['Geist Mono', 'monospace'],
-            serif: ['Georgia', 'serif'],
-          },
-          colors: {
-            border: 'var(--border)',
-            background: 'var(--background)',
-            foreground: 'var(--foreground)',
-            primary: { DEFAULT: 'var(--primary)', foreground: 'var(--primary-foreground)' },
-            secondary: { DEFAULT: 'var(--secondary)', foreground: 'var(--secondary-foreground)' },
-            muted: { DEFAULT: 'var(--muted)', foreground: 'var(--muted-foreground)' },
-            card: { DEFAULT: 'var(--card)', foreground: 'var(--card-foreground)' },
-          }
-        }
-      }
-    }
-  </script>
 
   <style>
     :root {
@@ -191,7 +167,9 @@
             <img
               src="11.png"
               alt="Novor Prince Edem Kofi - Profile"
-              class="relative z-10 h-24 w-24 rounded-full border-2 border-primary/40 object-cover shadow-lg md:h-28 md:w-28"
+              class="relative z-10 h-24 w-24 rounded-full border-2 border-primary/40 object-cover object-[75%_center] md:object-center shadow-lg md:h-28 md:w-28"
+              loading="lazy"
+              decoding="async"
             />
           </div>
 

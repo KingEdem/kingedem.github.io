@@ -12,18 +12,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="2.png">
   <link rel="apple-touch-icon" href="2.png">
-  <title>KingEdem | Novor Prince Edem Kofi — Engineer, Writer & Author of Hyperman and the Seer</title>
+  <title>Edem — Novor Prince Edem Kofi | Computer Engineer &amp; Developer in Ghana | KingEdem</title>
 
   <!-- ===== SEO META TAGS ===== -->
-  <meta name="description" content="The official portfolio of Novor Prince Edem Kofi (KingEdem). Computer Engineer, AI workflow specialist, and author of the sci-fi thriller 'Hyperman and the Seer'.">
-  <meta name="keywords" content="KingEdem, Novor Prince Edem Kofi, Hyperman and the Seer, Hyperman story, Sci-fi thriller, Computer Engineer Ghana, UMaT">
+  <meta name="description" content="Edem Kofi (KingEdem) — Computer Engineering student at UMaT, Ghana. Developer, AI specialist, and author of sci-fi thriller 'Hyperman and the Seer'. Explore my projects and writing.">
+  <meta name="keywords" content="Edem, Edem Ghana, Edem developer, Edem Kofi, Edem computer engineer, KingEdem, Novor Prince Edem Kofi, Hyperman and the Seer, Computer Engineer Ghana, UMaT, AI specialist Ghana">
   <meta name="author" content="Novor Prince Edem Kofi">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph (social sharing) -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Novor Prince Edem Kofi | KingEdem">
-  <meta property="og:description" content="Portfolio of Novor Prince Edem Kofi. Computer Engineer, AI workflow specialist, and author of the sci-fi thriller 'Hyperman and the Seer'.">
+  <meta property="og:title" content="Edem | Novor Prince Edem Kofi — Developer &amp; Engineer in Ghana">
+  <meta property="og:description" content="Edem Kofi (KingEdem) — Computer Engineering student at UMaT, Ghana. Developer, AI workflow specialist, and author of 'Hyperman and the Seer'.">
   <meta property="og:url" content="https://kingedem.github.io/">
   <meta property="og:image" content="https://kingedem.github.io/9.png">
 
@@ -43,16 +43,23 @@
         "@type": "Person",
         "@id": "https://kingedem.github.io/#person",
         "name": "Novor Prince Edem Kofi",
-        "alternateName": "KingEdem",
+        "givenName": "Edem",
+        "familyName": "Kofi",
+        "alternateName": ["KingEdem", "Edem", "Edem Kofi"],
         "url": "https://kingedem.github.io/",
         "image": "https://kingedem.github.io/9.png",
         "jobTitle": "Computer Engineer and AI Specialist",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "GH",
+          "addressRegion": "Ghana"
+        },
         "alumniOf": {
           "@type": "EducationalOrganization",
           "name": "University of Mines and Technology (UMaT)",
           "addressCountry": "GH"
         },
-        "knowsAbout": ["Java", "Spring Boot", "Python", "SQL", "C++", "AI Tools", "Sci-Fi Writing"]
+        "knowsAbout": ["Java", "Spring Boot", "Python", "SQL", "C++", "AI Tools", "Sci-Fi Writing", "Ghana Tech"]
       },
       {
         "@type": "Book",
@@ -74,33 +81,8 @@
   }
   </script>
   
-  <script src="https://cdn.tailwindcss.com"></script>
-  
+<link rel="stylesheet" href="./css/style.css">  
   <script src="https://unpkg.com/lucide@latest"></script>
-
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Geist', 'sans-serif'],
-            mono: ['Geist Mono', 'monospace'],
-            serif: ['Georgia', 'serif'],
-          },
-          colors: {
-            border: 'var(--border)',
-            background: 'var(--background)',
-            foreground: 'var(--foreground)',
-            primary: { DEFAULT: 'var(--primary)', foreground: 'var(--primary-foreground)' },
-            secondary: { DEFAULT: 'var(--secondary)', foreground: 'var(--secondary-foreground)' },
-            muted: { DEFAULT: 'var(--muted)', foreground: 'var(--muted-foreground)' },
-            card: { DEFAULT: 'var(--card)', foreground: 'var(--card-foreground)' },
-          }
-        }
-      }
-    }
-  </script>
 
   <style>
     /* CSS Variables */
@@ -241,6 +223,15 @@
     html:not(.dark) a[class*="border-primary"]:hover,
     html:not(.dark) a[class*="bg-primary"]:hover {
       box-shadow: 0 0 15px rgba(234, 179, 8, 0.55), 0 0 35px rgba(234, 179, 8, 0.25) !important;
+    }
+
+    /* ===== PERFORMANCE: GPU-ACCELERATE ALL BLUR ELEMENTS =====
+       Forces a composited layer for every backdrop-blur element so the
+       browser does not repaint on the main thread during scroll.
+       Critical for smooth scrolling on low-end / budget Android devices. */
+    [class*="backdrop-blur"] {
+      transform: translateZ(0);
+      -webkit-transform: translateZ(0);
     }
   </style>
 </head>
@@ -954,7 +945,7 @@ Does relativity make decision-making harder? Absolutely. But I&#39;m not one to 
 
     <footer class="border-t border-border/40 py-8">
       <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 sm:flex-row lg:px-8">
-        <img src="2.png" alt="KingEdem" class="h-8 w-auto object-contain grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+        <img src="2.png" alt="KingEdem" class="h-8 w-auto object-contain grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300" loading="lazy" decoding="async">
         <p class="font-mono text-xs text-muted-foreground">&copy; 2026 &middot; Built with precision & passion.</p>
       </div>
     </footer>
